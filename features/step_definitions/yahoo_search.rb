@@ -7,9 +7,6 @@ After do
   @driver.quit
 end
 
-
-
-
 Given(/^user is on yahoo search page$/) do
   @driver.get "http://yahoo.com"
 
