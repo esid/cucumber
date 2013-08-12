@@ -1,6 +1,7 @@
 require 'selenium-webdriver'
 
 Before do
+  #seems like uses one for all features
   #@driver = Selenium::WebDriver.for :firefox
 end
 After do
