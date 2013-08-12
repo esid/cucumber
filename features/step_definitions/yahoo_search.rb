@@ -12,6 +12,7 @@ end
 
 Given(/^user is on yahoo search page$/) do
   @driver.get "http://yahoo.com"
+
 end
 When(/^user searches for google$/) do
   @driver.find_element(:name, "p").send_keys("google")
